@@ -1,0 +1,22 @@
+@media screen and (max-width:860px){
+    body{
+        padding-bottom: 1700px;
+    }
+    .projects{
+        width: 650px;
+        top: 800px;
+        overflow: hidden;
+    }
+    .skills{
+        top: 550px;
+    }
+    .contacts-sec{
+        top: 1600px;
+    }
+    hr{
+        top: 1570px;
+    }
+    .description{
+        width: 400px;
+    }
+}

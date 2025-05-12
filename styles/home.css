@@ -1,0 +1,262 @@
+
+body{
+    padding-bottom: 1500px;
+    background: linear-gradient(to right, rgb(88, 81, 81), white);
+    background-repeat: no-repeat;
+}
+main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.profile{
+    position: absolute;
+    left: 62%;
+    height: 250px;
+    cursor: pointer;
+    width: 250px;
+}
+hr{
+    position: absolute;
+    width: 100%;
+    color: rgb(231, 228, 228);
+    top: 1320px;
+}
+.my-name{
+    position: fixed;
+    z-index: 6;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 2%;
+    padding: 5px;
+    border-radius: 6px;
+    background: linear-gradient(to right, gray, white);
+    cursor: pointer;
+}
+.my-name:hover{
+    border: 1px solid rgb(4, 4, 4);
+    background: linear-gradient(to left, gray , white);
+}
+.my-name p{
+    margin: 0;
+}
+.page-header{
+    font-size: 55px;
+    background-color: inherit;
+    position: absolute;
+    z-index: -1;
+    left: 4%;
+    color:  rgb(41, 44, 46);
+}
+.profile-pic{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   background: linear-gradient(to left, rgb(88, 81, 81), white);
+   border: 1px solid rgb(51, 49, 49);
+   box-shadow: inset 1px 1px 3px rgb(162, 177, 186);
+}
+.profile-pic img{
+    margin-left: 33px;
+    width: 130px;
+}
+.hire{
+    position: absolute;
+    top: 270px;
+    left: 62%;
+}
+.contact{
+    position: absolute;
+    top: 270px;
+    left: 75%;
+}
+.hire-bt{
+    background-color: rgb(0, 157, 255);
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+}
+.contact-bt{
+    background-color: rgb(17, 20, 21);
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+}
+.contacts-sec{
+    position: absolute;
+    top: 1380px;
+    left: 4%;
+}
+#ct-header{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 4px;
+}
+.contacts-sec div{
+    margin: 10px;
+}
+.hire-bt:hover{
+    color: rgb(0, 157, 255);
+    background-color: white;
+    transition: .5s;
+}
+.contact-bt:hover{
+    color: rgb(0, 157, 255);
+    background-color: white;
+    transition: .5s;
+}
+.profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.profile-name span{
+    color: rgb(0, 157, 255);
+}
+.about{
+    position: absolute;
+    background: linear-gradient(to right, rgb(88, 81, 81), white);
+    width: 350px;
+    border: 1px solid gray;
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 2px rgb(79, 79, 99);
+    top: 280px;
+    z-index: 5;
+    left: 4%;   
+}
+.about:hover, .skills:hover, .projects:hover{
+    background: linear-gradient(to left, rgb(88, 81, 81), white);
+    transition: 2s;
+    cursor: pointer;
+}
+.about li span{
+    color: rgb(2, 62, 99);
+}
+.header{
+    font-size: 25px;
+    display: inline;
+    padding: 6px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.header:hover{
+    border-color: black;
+}
+.skills{
+    position: absolute;
+    background: linear-gradient(to right, rgb(88, 81, 81), white);
+    top: 320px;
+    padding: 15px;
+    z-index: 1;
+    border-radius: 10px;
+    left: 50%;
+}
+.skills ul li{
+    font-size: large;
+}
+.skills .details{
+    margin-left: 60px;
+}
+.projects{
+    position: absolute;
+    top: 550px;
+    left: 4%;
+    width: 800px;
+    padding: 14px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 3px gray;
+    border: 1px solid gray;
+}
+.projects-cont{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    width: 220px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgb(82, 82, 53);
+    background-color: rgb(41, 38, 34);
+}
+.project div img{
+    height: 150px;
+    border-radius: 6px;
+    width: 100%;
+}
+.pr-title{
+    margin-left: 1px;
+    position: absolute;
+    font-size: large;
+    background: linear-gradient(to right, rgb(0, 157, 255), white);
+    padding: 6px;
+    border-radius: 5px;
+    color: rgb(5, 5, 8);
+    top: -38%;
+}
+.description{
+    position: absolute;
+    left: 240px;
+    width: 500px;
+    font-size: 18px;
+    top: 0;
+}
+.d-tag{
+    position: absolute;
+    left: 240px;
+    font-size: large;
+    top: -16%;
+    color: rgb(255, 251, 0);
+}
+.view-bt{
+    position: absolute;
+    left: 240px;
+    top: 55%;
+    width: 80px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 157, 255);
+    border: none;
+    border-radius: 6px;
+}
+.tool-tip{
+    position: absolute;
+    bottom: -16px;
+    padding: 4px;
+    border-radius: 10px;
+    left: 30%;
+    background-color: gray;
+    color: white;
+    width: 110px;
+    opacity: 0;
+}
+.view-bt:hover{
+    color: rgb(0, 157, 255);
+    background-color: white;
+    transition: .5s;
+}
+.view-bt:hover .tool-tip,
+ .hire-bt:hover .tool-tip,
+  .contact-bt:hover .tool-tip{
+    opacity: 1;
+    transition: .9s;
+}
+.tool-tip:hover{
+    pointer-events: none;
+}

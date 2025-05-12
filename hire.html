@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hiring page</title>
+    <link rel="stylesheet" href="styles/hiring.css">
+</head>
+<body>
+    <main>
+        <a href="home.html">
+            <button class="back">
+                back
+                <div class="tool-tip">
+                    back home
+                </div>
+            </button>
+        </a>
+        <p class="page-header">
+            Thank you for wishing to hire me for 
+            your project!
+        </p>
+        <p class="rq">
+            Please fill in the form below to describe your project:
+        </p>
+        <div class="form-container">
+            <form action="">
+                <p>Briefly describe your project:</p>
+                <textarea name="pr-description" id="" placeholder="Type here"></textarea>
+                <p>Kindly tell if its your personal project or you are hiring for your organisation</p>
+                <div class="radio-cont">
+                    <div>
+                        <input type="radio" name="b-type">
+                        <label for="b-type">Personal</label>
+                    </div>
+                    <div>
+                       <input type="radio" name="b-type">
+                       <label for="b-type">Organisation</label>
+                    </div> 
+                </div>
+                <p>Please select your preferred completion duration</p>
+                <div class="radio-cont">
+                    <div>
+                        <input type="radio" name="duration">
+                        <label for="duration">One Week</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="duration">
+                        <label for="duration">Two weeks</label>
+                     </div> 
+                     <div>
+                        <input type="radio" name="duration">
+                        <label for="duration">Three weeks</label>
+                     </div>
+                     <div>
+                        <input type="radio" name="duration">
+                        <label for="duration"> One month</label>
+                     </div> 
+                </div>
+                <p>Please specify your preferred domain hosting</p>
+                <div class="radio-cont">
+                    <div>
+                        <input type="radio" name="hstng">
+                        <label for="hstng">.com</label>
+                    </div> 
+                    <div>
+                        <input type="radio" name="hstng">
+                        <label for="hstng">.net</label>
+                    </div> 
+                    <div>
+                        <input type="radio" name="hstng">
+                        <label for="hstng">.org</label>
+                    </div> 
+                    <div>
+                        <input type="radio" name="hstng">
+                        <label for="hstng">.co.ke</label>
+                    </div> 
+                    <div>
+                        <input type="radio" name="hstng">
+                        <label for="hstng">other</label>
+                    </div> 
+                </div>
+                <p>Kindly fill in your primary contacts details below:</p>
+                <div class="contacts">
+                    <div>
+                        <label>Email:</label>
+                        <input style="width: 250px;" class="em" id="email" type="email" placeholder="please enter your email">
+                    </div>
+                    <div>
+                        <label>Phone number:</label>
+                        <input style="width: 250px;" id="phone" type="text" placeholder="please enter your Phone number">
+                    </div>
+                </div>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+       
+    </main>
+</body>
+</html>
