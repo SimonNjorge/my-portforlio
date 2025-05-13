@@ -1,0 +1,46 @@
+@media screen and (max-width: 300px) {
+    body{
+        padding-bottom: 1600px;
+    }
+    .form-container{
+        top: 240px;
+        left: 2%;
+        width: 150px;
+        overflow: auto;
+    }
+    .radio-cont{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .em{
+        margin: 0;
+        width: 10px;
+    }
+    .contacts div label{
+        margin-left: 0;
+    }
+    #email, #phone{
+        width: 140px;
+       margin-left: 5px;
+    }
+    .page-header{
+        top: 20px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .textarea{
+        width: 140px;
+    }
+}
+@media screen and (max-width: 600px){
+    .page-header{
+        margin-left: 20px;
+        top: 25px;
+    }
+    .rq{
+        top: 135px;
+    }
+    .form-container{
+        top: 250px;
+    }
+}

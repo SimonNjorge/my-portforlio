@@ -23,7 +23,7 @@ hr{
     top: 1320px;
 }
 .my-name{
-    position: fixed;
+    position: absolute;
     z-index: 6;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,13 +68,13 @@ hr{
 .contact{
     position: absolute;
     top: 270px;
-    left: 75%;
+    left: 73%;
 }
 .hire-bt{
     background-color: rgb(0, 157, 255);
     border: 1px solid gray;
     border-radius: 10px;
-    width: 100px;
+    width: 80px;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -84,7 +84,7 @@ hr{
     background-color: rgb(17, 20, 21);
     border: 1px solid gray;
     border-radius: 10px;
-    width: 100px;
+    width: 80px;
     margin-left: 4px;
     color: white;
     font-size: 14px;
@@ -137,6 +137,9 @@ hr{
     background: linear-gradient(to left, rgb(88, 81, 81), white);
     transition: 2s;
     cursor: pointer;
+}
+.projects:hover .d-tag{
+    color: rgb(4, 9, 91);
 }
 .about li span{
     color: rgb(2, 62, 99);
@@ -191,8 +194,6 @@ hr{
     margin-left: 16px;
     cursor: pointer;
     position: relative;
-    border: 1px solid rgb(82, 82, 53);
-    background-color: rgb(41, 38, 34);
 }
 .project div img{
     height: 150px;
@@ -203,7 +204,7 @@ hr{
     margin-left: 1px;
     position: absolute;
     font-size: large;
-    background: linear-gradient(to right, rgb(0, 157, 255), white);
+    background: linear-gradient(to right, rgb(80, 59, 1), white);
     padding: 6px;
     border-radius: 5px;
     color: rgb(5, 5, 8);

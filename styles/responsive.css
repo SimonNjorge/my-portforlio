@@ -4,11 +4,10 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-bottom: 29000px;
+        padding-bottom: 2800px;
     }
 main{
     width: 200px;
-    height: 3000px;
     flex-direction: column;
     align-items: center;
  }
@@ -16,12 +15,13 @@ main{
     display: none;
  }
  .my-name{
-    top: 10px;
+   left: 25px;
+    top: 7px;
  }
  .profile{
-    top: 25px;
+    top: 45px;
     left: 16%;
- 
+
  }
  .profile-pic{
     height: 150px;
@@ -31,18 +31,23 @@ main{
     width: 80px;
  }
  hr{
-    top: 1930px;
+    top: 2640px;
+ }
+ .profile-name{
+   width: 180px;
  }
  .hire{
-    top: 280px;
+    top: 260px;
     left: 10%;
+    width: 60px;
  }
  .contact{
     left: 120px;
-    top: 280px;
+    top: 260px;
+    width: 80px;
  }
  .skills{
-    top: 1100px;
+    top: 820px;
     width: auto;
     left: 4%;
  }
@@ -51,12 +56,24 @@ main{
     width: auto;
  }
  .projects{
-    max-width:  400px;
+    width: 180px;
     top: 1328px;
  }
  .project{
     margin-top: 120px;
-    height: 150px;
+    width: 160px;
+    height: 250px;
+ }
+ .project div img{
+   height: 100px;
+   object-fit: contain;
+    border-radius: 10px;
+ }
+ .img-cont{
+   position: absolute;
+   top: 60px;
+   height: 90px;
+  
  }
  .pr-title{
     top: -150px;
@@ -64,16 +81,21 @@ main{
  }
  .description{
     left: 4%;
-    max-width: 380px;
+    width: 160px;
     height: 100px;
-    overflow: hidden;
+    overflow: auto;
     top: -68px;
+ }
+ .view-bt{
+   left: 12px;
+   top: 160px;
  }
  .d-tag{
     left: 2%;
     top: -100px;
+    margin-top: 25px;
  }
  .contacts-sec{
-    bottom: -274px;
+    top: 2670px;
  }
 }
