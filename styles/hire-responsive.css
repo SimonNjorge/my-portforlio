@@ -1,12 +1,16 @@
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     body{
-        padding-bottom: 1600px;
+        padding-bottom: 1800px;
     }
     main{
         position: static;
     }
+    .disclaimer{
+        top: 100px;
+        left: 10px;
+    }
     .form-container{
-        top: 240px;
+        top: 420px;
         left: 2%;
         width: 150px;
         overflow: auto;
@@ -27,23 +31,30 @@
        margin-left: 5px;
     }
     .page-header{
-        top: 20px;
-        left: 10px;
-        font-size: 20px;
+        top: 40px;
+        margin-left: 10px;
+        font-size: 14px;
     }
     .textarea{
         width: 140px;
     }
+    .rq{
+        top: 270px;
+        margin-left: 10px;
+    }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (min-width: 401px) and (max-width: 650px){
     .page-header{
-        margin-left: 20px;
-        top: 25px;
+        top: 75px;
     }
     .rq{
-        top: 135px;
+        top: 185px;
     }
     .form-container{
-        top: 250px;
+        top: 300px;
+    }
+    body{
+        padding-bottom: 1300px;
     }
 }
