@@ -197,6 +197,7 @@ hr{
 }
 .project div img{
     height: 150px;
+    padding: 6px;
     border-radius: 6px;
     width: 100%;
 }
@@ -204,7 +205,7 @@ hr{
     margin-left: 1px;
     position: absolute;
     font-size: large;
-    background: linear-gradient(to right, rgb(80, 59, 1), white);
+    background: linear-gradient(to right, rgb(97, 126, 253), white);
     padding: 6px;
     border-radius: 5px;
     color: rgb(5, 5, 8);

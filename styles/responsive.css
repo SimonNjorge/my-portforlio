@@ -1,22 +1,24 @@
 @media screen and (max-width: 600px) {
 body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 2800px;
-    }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 3000px;
+    }  
 main{
     width: 200px;
     flex-direction: column;
     align-items: center;
  }
- .page-header{
+
+.page-header{
+    position: static;
     display: none;
  }
  .my-name{
-   left: 25px;
-    top: 7px;
+   top: -5%;
+   left: -15vw;
  }
  .profile{
     top: 45px;
@@ -31,7 +33,7 @@ main{
     width: 80px;
  }
  hr{
-    top: 2640px;
+    top: 2760px;
  }
  .profile-name{
    width: 180px;
@@ -47,27 +49,31 @@ main{
     width: 80px;
  }
  .skills{
-    top: 820px;
+    top: 900px;
     width: auto;
     left: 4%;
  }
  .about {
-    top: 340px;
+    top: 310px;
     width: auto;
  }
  .projects{
-    width: 180px;
-    top: 1328px;
+    width: auto;
+    top: 1458px;
  }
  .project{
     margin-top: 120px;
+    margin-right: 14px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
     width: 160px;
     height: 250px;
  }
  .project div img{
    height: 100px;
    object-fit: contain;
-    border-radius: 10px;
+   border-radius: 10px;
  }
  .img-cont{
    position: absolute;
@@ -96,6 +102,6 @@ main{
     margin-top: 25px;
  }
  .contacts-sec{
-    top: 2670px;
+    top: 2800px;
  }
 }

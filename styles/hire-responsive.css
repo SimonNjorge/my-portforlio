@@ -2,6 +2,9 @@
     body{
         padding-bottom: 1600px;
     }
+    main{
+        position: static;
+    }
     .form-container{
         top: 240px;
         left: 2%;
